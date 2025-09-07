@@ -42,7 +42,8 @@ This app helps users manage their personal projects and related tasks in a simpl
 - **Flask-Login** – session and authentication handling
 - **Flask-WTF** + **WTForms** – forms and CSRF protection
 - **Flask-Bcrypt** – password hashing
-
+- **HTML5** – for page structure (templates with Jinja2)  
+- **CSS3** – for styling (inline styles within templates with basic responsive design)  
 ---
 
 ## Design Decisions
@@ -57,8 +58,9 @@ This app helps users manage their personal projects and related tasks in a simpl
   This clear structure makes it easy to expand the app later.
 
 - **Templates & Styling**:
-  Minimal HTML/CSS (no external frameworks) was chosen to focus on backend logic. Inline styles keep the app lightweight but can be refactored into a `templates/` folder.
-
+  Minimal HTML/CSS (no external frameworks) was chosen to focus on backend logic. Inline styles keep the app lightweight but can be refactored into a `templates/` folder.  
+  The layout uses **basic responsive design principles**, so the forms and pages adapt to different screen sizes (desktop and mobile).
+  
 - **Form Validation**:
   Flask-WTF was used to ensure input validation (e.g., password confirmation, unique usernames).
 
