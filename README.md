@@ -104,15 +104,15 @@ The login and register structures were adapted from existing Flask + SQLAlchemy 
 - If a user tries to log in with a username that is not registered, the page also refreshes without showing a warning.
 
 These behaviors are intentional in this basic version, but they can be improved by adding **flashing messages** or **form error displays** in the future.  
----
+
 
 ---
+
 *Prepared by:* [Başak Yaralı]
 *Github:* [byart0]
 *Date Saved:* 2025-09-07
 *Location:* [İstanbul, Türkiye]
 *e-mail:* [basakyarali@gmail.com]
----
 
 ---
 
