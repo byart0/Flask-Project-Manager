@@ -29,7 +29,7 @@ This app helps users manage their personal projects and related tasks in a simpl
   - `project.html` → Project list and project creation page.
   - `task.html` → Task management page for each project.
 - **requirements.txt**: Lists Python dependencies for the project.
-
+- **gitignore**: Ensures unnecessary files like `*.db`, `venv`, `instance` and virtual environments are ignored
 
 
 ---
@@ -85,8 +85,6 @@ When the app runs, users interact through the browser:
    ➜ Click the link in the terminal to open the app in your browser.
 
 ---
-## Acknowledgements
-
 ## Acknowledgements
 
 This project was partially inspired by community examples on Flask authentication with SQLAlchemy.
